@@ -103,18 +103,87 @@
 // console.log(myFunction(['w','x','y','z'],[10,9,5,2]));
 /////////////////////////////////////////////////////////////
 
-
 // function myFunction(a, b) {
-  
+
 //   return a.hasOwnProperty(b)
 // }
 
 // console.log(myFunction({x:'a',y:'b',z:undefined},'z'));
 ////////////////////////////////////////////////////////////
 
-function myFunction(a,b){
-  return (b in a)?a?.[b]:false
+// function myFunction(a, b) {
+//   return b in a ? a?.[b] : false;
+// }
 
-}
+// console.log(myFunction({ x: "a", 0: "b", z: null }, "z"));
+///////////////////////////////////////////////////////////
 
-console.log(myFunction({x:'a',0:'b',z:null},'z'))
+// function myFunction(a) {
+//   let length = a.length-3
+
+//   for (let i = 0; i < a.length; i++) {
+//     const element = array[i];
+
+//   }
+//   return length;
+// }
+
+// console.log(myFunction('abcdefg'));
+// console.log(myFunction([1,2,3,4]));
+/////////////////////////////////////////////////////////////
+
+// function countTrue(values) {
+//   let counter = 0;
+//   values.forEach((item) => {
+//     if (item === true) {
+//       counter++;
+//     }
+//   });
+//   return counter;
+// }
+
+// // console.log(countTrue([true, false, false, true, false])); // 2
+// // console.log(countTrue([false, false, false, false])); // 0
+// console.log(countTrue([])); // 
+//////////////////////////////////////////////////////////////////
+
+// function sevenBoom(values){
+//   let val = values.join('')
+//   let xxx
+//   console.log(val[2]);
+  
+//   for (let i = 0; i < val.length; i++) {
+    
+//     xxx = val[i] === '7' ? true : false  
+
+//   }
+
+
+
+  
+  
+
+// return xxx
+// }
+
+// // console.log(sevenBoom([1, 2, 3, 4, 5, 6, 7]));  // 'boom!'
+// console.log(sevenBoom([2, 55, 60, 97, 86]));
+
+
+
+
+
+//     // if (val[i] === '7') {
+//     //   xxx = true
+//     // }
+
+
+
+// function getlength(values){
+// let xxx =  values.flat(6)
+//   return xxx 
+// }
+
+// console.log(getlength([1, [2, [3, [4, [5], [6,7]]]]]));
+////////////////////////////////////////////
+
