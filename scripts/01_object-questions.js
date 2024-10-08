@@ -149,12 +149,12 @@
 
 // function sevenBoom(values){
 //   let val = values.join('')
-//   let xxx
+//   let vvv
 //   console.log(val[2]);
   
 //   for (let i = 0; i < val.length; i++) {
     
-//     xxx = val[i] === '7' ? true : false  
+//     vvv = val[i] === '7' ? true : false  
 
 //   }
 
@@ -163,7 +163,7 @@
   
   
 
-// return xxx
+// return vvv
 // }
 
 // // console.log(sevenBoom([1, 2, 3, 4, 5, 6, 7]));  // 'boom!'
@@ -174,14 +174,14 @@
 
 
 //     // if (val[i] === '7') {
-//     //   xxx = true
+//     //   vvv = true
 //     // }
 
 
 
 // function getlength(values){
-// let xxx =  values.flat(6)
-//   return xxx 
+// let vvv =  values.flat(6)
+//   return vvv 
 // }
 
 // console.log(getlength([1, [2, [3, [4, [5], [6,7]]]]]));
